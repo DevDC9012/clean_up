@@ -1,8 +1,8 @@
 import os 
 import time
 
-
-path = r"C:\Users\Dev\Desktop"
+#Add your desktop path here
+path = r""
 
 
 def clean_folder():
@@ -25,7 +25,7 @@ def delete_files():
 def check_folder():
             print("checking folder...")
             time.sleep(1)
-            folder_contents = os.listdir(r"C:\Users\Dev\Desktop")
+            folder_contents = os.listdir(r"")
             print(folder_contents)
 
 clean_folder()
